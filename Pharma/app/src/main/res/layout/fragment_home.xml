@@ -1,0 +1,19 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.narpat.pharma.fragments.HomeFragment">
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="10dp"
+        android:numColumns="2"
+        android:paddingTop="60dp"
+        android:scrollbarThumbHorizontal="@null"
+        android:scrollbarThumbVertical="@null"
+        android:stretchMode="columnWidth"/>
+
+</FrameLayout>
